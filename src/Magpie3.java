@@ -5,7 +5,7 @@
  *    Uses advanced search for keywords 
  * </li></ul> 
  *    
- * @author Laurie White
+ * @author Laurie White, Kathy Trinh, and Gerald Mbevi
  * @version April 2012
  */
 public class Magpie3
@@ -20,6 +20,11 @@ public class Magpie3
 		return "Hello, let's talk.";
 	}
 
+
+    public void myTest () {
+        findKeyword("yesterday is today's day before.", "day", 0);
+    }
+
 	/**
 	 * Gives a response to a user statement
 	 * 
@@ -29,6 +34,8 @@ public class Magpie3
 	 */
 	public String getResponse(String statement)
 	{
+
+
 		String response = "";
 		if (statement.length() == 0)
 		{

@@ -14,6 +14,8 @@ public class MagpieRunner3
 	public static void main(String[] args)
 	{
 		Magpie3 maggie = new Magpie3();
+
+        maggie.myTest();
 		
 		System.out.println (maggie.getGreeting());
 		Scanner in = new Scanner (System.in);
